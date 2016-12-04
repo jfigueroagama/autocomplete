@@ -24,6 +24,12 @@ group :development, :test do
   gem 'byebug', platform: :mri
 end
 
+group :test do
+  gem 'rspec-rails',        '3.5.2'
+  gem 'factory_girl_rails', '4.7.0'
+  gem 'ffaker',             '2.2.0'
+end
+
 group :development do
   gem 'web-console',           '3.1.1'
   gem 'listen',                '3.0.8'
